@@ -1,0 +1,53 @@
+.root {}
+
+.angle {
+    position: relative;
+    background-color: red;
+    display: block;
+    width: 100px;
+    height: 50px;
+}
+
+.angle::after {
+    content: '';
+    position: relative;
+    top: 49px;
+    display: block;
+    width: 50px;
+    height: 50px;
+    background-color: red;
+}
+
+.angle_arrows {
+    display: flex;
+    position: absolute;
+    top: -20px;
+    border: 1px solid grey;
+    border-radius: 50%;
+    padding: 50px;
+    z-index: 2;
+
+}
+
+.lineTwo {
+
+    background-color: rgb(0, 255, 47);
+    display: block;
+    width: 100px;
+    height: 50px;
+}
+
+.lineThree {
+    position: static;
+    top: 0;
+    background-color: rgb(255, 157, 0);
+    display: block;
+    width: 150px;
+    height: 50px;
+}
+
+.smallSquare {
+    display: block;
+    width: 50px;
+    height: 50px;
+}

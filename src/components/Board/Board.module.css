@@ -1,0 +1,31 @@
+.root {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.board_grid {
+    background-color: peachpuff;
+    margin: 0 auto;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(3, 50px);
+    grid-template-rows: repeat(3, 50px);
+    width: 300px;
+    height: 152px;
+}
+
+
+
+.board__cell {
+    background: white;
+    display: block;
+    width: 50px;
+    height: 50px;
+    border: 1px solid #aaa;
+}
+
+.board__cell:hover {
+    background-color: aqua;
+}
